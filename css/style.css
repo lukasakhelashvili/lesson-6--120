@@ -1,0 +1,38 @@
+.background-image {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.dragon {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 90%;
+  left: 20%;
+  animation: dragon 10s infinite;
+}
+@keyframes dragon {
+  0% {
+    left: 300px;
+  }
+  100% {
+    left: 1000px;
+  }
+}
+.moon {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 8%;
+  left: 40%;
+  animation: moon 10s infinite;
+}
+
+@keyframes moon {
+  0% {
+    top: 5px;
+  }
+  100% {
+    top: 50px;
+  }
+}
